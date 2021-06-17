@@ -1,0 +1,108 @@
+{% extends 'base.html' %}
+
+
+{% block title %} about {% endblock title %}
+
+{% block body   %} 
+
+
+<div class="container my-4">
+    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="10000">
+                <img src="/static/3.jfif" class="d-block w-100" alt="...">
+                {% comment %} https://source.unsplash.com/1600x500/?contact,phone {% endcomment %}
+                <div class="carousel-caption d-none d-md-block">
+                    <h3> about Us </h3>
+                    <p>You will be learning the basics of python in this course.
+
+Python is one of the fastest growing language
+
+Python is interpreted, object oriented, high level, procedure oriented language
+
+It has different versions
+
+The reason behind it is there are huge number of libraries available in the market, many companies and developers are using it and it can be implemented in many areas.
+
+It is general Purpose language as it can be used in Machine learning, GUI, Software Development, Web development and many more.
+
+Google, YouTube, Dropbox, NASA, Yahoo use python
+</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  </div>
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+       <img src="https://source.unsplash.com/user/erondu/1400x1400" class="d-block w-100" alt="...">
+        <h2>course 1</h2>
+        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="https://source.unsplash.com/user/erondu/1400x1400" class="d-block w-100" alt="...">
+        <h2>course 2</h2>
+        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="https://source.unsplash.com/user/erondu/1400x1400" class="d-block w-100" alt="...">
+        <h2>course 3</h2>
+        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">some more about us  <span class="text-muted">It’ll blow your mind.</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+      <div class="col-md-5">
+       <img src="https://source.unsplash.com/user/erondu/1400x1000" class="d-block w-100" alt="...">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">we will make you a perfect coder <span class="text-muted">See for yourself.</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="https://source.unsplash.com/user/erondu/1400x1000" class="d-block w-100" alt="...">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">available courses are very cheap  <span class="text-muted">Checkmate.</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+      <div class="col-md-5">
+      <img src="https://source.unsplash.com/user/erondu/1400x1000" class="d-block w-100" alt="...">
+        {% comment %} <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> {% endcomment %}
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div>
+
+ {% endblock body   %}
