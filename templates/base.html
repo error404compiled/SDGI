@@ -13,8 +13,22 @@
     </title>
   </head>
   <body>
+
+    <div class="card">
+      {% comment %} <div class="card-header">
+        Featured
+      </div> {% endcomment %}
+      <div class="card-body">
+        <h4 class="card-title">The 1st International Confrence</h4>
+        <p class="card-text">On Emerging Trends In Science Engineering And Technology</p>
+        <p class="card-text">(ICET_SET23)</p>
+
+        {% comment %} <a href="#" class="btn btn-primary">Go somewhere</a> {% endcomment %}
+      </div>
+    </div>
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="/">archit </a>
+        <a class="navbar-brand" href="/">NONE </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -22,12 +36,24 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
+            </li>
+            {% comment %} nnn {% endcomment %}
+            <li class="nav-item">
+              <a class="nav-link" href="/General-Information">General Information</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about">about </a>
+              <a class="nav-link" href="/Committee">Committee</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item">
+              <a class="nav-link" href="/Call-for-Papers">Call for Papers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Call-for-Reviews">Call for Reviews</a>
+            </li>
+
+
+            {% comment %} <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 services
               </a>
@@ -37,7 +63,7 @@
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="/assingment">assingments/sourse code </a>
               </div>
-            </li>
+            </li> {% endcomment %}
             <li class="nav-item">
                 <a class="nav-link" href="/contact">contact us </a>
             </li>

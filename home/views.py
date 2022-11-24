@@ -12,8 +12,8 @@ def index(request):
     return render(request, 'index.html', context)
     # return HttpResponse("this is home page ")
 
-def about(request):
-    return render(request, 'about.html')
+def General_Information(request):
+    return render(request, 'General Information.html')
     # return HttpResponse("this is about page ")
 
 def services(request):
@@ -32,12 +32,12 @@ def contact (request):
     return render(request, 'contact.html')
     # return HttpResponse("this is contact page ")
 
-def courses (request):
-    return render(request, 'courses.html')
+def Committee (request):
+    return render(request, 'Committee.html')
 
-def stu_info (request):
-    return render(request, 'stu_info.html')
+def Call_for_Papers (request):
+    return render(request, 'Call-for-Papers.html')
 
-def assingment (request):
-    return render(request, 'assingment.html')
+def Call_for_Reviews (request):
+    return render(request, 'Call-for-Reviews.html')
 
